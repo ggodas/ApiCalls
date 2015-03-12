@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E40AB6471A9FCC160033EE6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E40AB6461A9FCC160033EE6F /* main.m */; };
+		E40AB64F1A9FCD7B0033EE6F /* RestCall.m in Sources */ = {isa = PBXBuildFile; fileRef = E40AB64E1A9FCD7B0033EE6F /* RestCall.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		E40AB6431A9FCC160033EE6F /* ApiCalls */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ApiCalls; sourceTree = BUILT_PRODUCTS_DIR; };
 		E40AB6461A9FCC160033EE6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E40AB64D1A9FCD7B0033EE6F /* RestCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestCall.h; sourceTree = "<group>"; };
+		E40AB64E1A9FCD7B0033EE6F /* RestCall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestCall.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				E40AB6461A9FCC160033EE6F /* main.m */,
+				E40AB64D1A9FCD7B0033EE6F /* RestCall.h */,
+				E40AB64E1A9FCD7B0033EE6F /* RestCall.m */,
 			);
 			path = ApiCalls;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E40AB6471A9FCC160033EE6F /* main.m in Sources */,
+				E40AB64F1A9FCD7B0033EE6F /* RestCall.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

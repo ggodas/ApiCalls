@@ -7,11 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "RestCall.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        RestCall *restCall = [[RestCall alloc]init];
+        
+        //NSString *url = @"https://www.petrobraspremmia.com.br/api/vitrine/TroqueSeusPontos/deslogado";
+        NSString *url = @"https://www.petrobraspremmia.com.br/wp-admin/admin-ajax.php?action=get_ofertas&subcategorias=-1&uf=&pontuacaoMaxima=&busca=";
+        
+        NSData *data = [restCall callApi: url];
     }
     return 0;
 }
